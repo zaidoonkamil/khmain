@@ -1,0 +1,58 @@
+name: khamin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core:
+  cloud_firestore:
+  get: ^4.3.8
+  get_storage: ^2.1.1
+  share: ^2.0.4
+  quickalert: ^1.0.0
+  cached_network_image: ^3.2.2
+  change_app_package_name: ^1.1.0
+  shared_preferences: ^2.0.10
+  easy_splash_screen: ^1.0.4
+  fl_score_bar: ^0.2.4
+  circular_countdown_timer: ^0.2.1
+  internet_connection_checker: ^1.0.0+1
+  lottie: ^2.6.0
+  loading_animation_widget: ^1.2.0+2
+  in_app_review: ^2.0.6
+  google_mobile_ads: ^3.0.0
+  rename: ^2.1.1
+#  share_plus: ^7.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.0
+
+flutter_icons:
+  android: true
+
+  image_path: "assets/images/play_store_512.png"
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+
